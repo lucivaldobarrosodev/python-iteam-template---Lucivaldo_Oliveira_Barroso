@@ -1,5 +1,5 @@
 # Desafio 04 — Tabuada Personalizada
-# Aluno: (seu nome aqui)
-# Data:  (data de entrega)
+# Aluno: (Lucivaldo Oliveira Barroso)
+# Data:  (19/05/2026)
 
 # ── Escreva sua solução abaixo ──────────────────────────────────────────────

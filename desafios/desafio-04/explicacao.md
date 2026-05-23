@@ -1,7 +1,7 @@
 # Explicação — Desafio 04 — Tabuada Personalizada
 
-**Aluno:** _(seu nome)_
-**Data:** _(data)_
+**Aluno:** _(Lucivaldo Oliveira Barroso)_  
+**Data:** _(19/05/2026)_
 
 ---
 

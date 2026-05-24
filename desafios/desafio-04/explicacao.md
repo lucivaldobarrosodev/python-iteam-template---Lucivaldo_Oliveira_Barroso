@@ -1,13 +1,13 @@
 # Explicação — Desafio 04 — Tabuada Personalizada
 
 **Aluno:** _(Lucivaldo Oliveira Barroso)_  
-**Data:** _(19/05/2026)_
+**Data:** _(24/05/2026)_
 
 ---
 
 ## O que meu programa faz
 
-_(Descreva em suas palavras o que cada parte do código faz.)_
+_o programa Digite um número de 1 a 10 para ver a tabuada ou 0 para sair e depois retroina atabuada.
 
 ---
 
@@ -15,10 +15,10 @@ _(Descreva em suas palavras o que cada parte do código faz.)_
 
 > Para esse exercício, por que `for` com `range()` é preferível ao `while`? Em que cenário o `while` seria a escolha certa?
 
-_(Sua resposta aqui — use suas próprias palavras.)_
+_porque a quantidade de repetiçoes ja é conhecida, e o while é ´preferivel quando n]ão sabemos ao certo quantas vezes o programa precisa se repetir.
 
 ---
 
 ## Dificuldades encontradas
 
-_(Opcional: o que foi difícil? O que você pesquisou para resolver?)_
+_pesauisei , sobre o uso do for e do while

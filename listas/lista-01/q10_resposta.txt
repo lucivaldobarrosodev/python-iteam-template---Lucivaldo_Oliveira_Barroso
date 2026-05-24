@@ -1,6 +1,6 @@
 Lista 01 — Questão 10: Análise Crítica de Código
-Aluno: (seu nome)
-Data:  (data)
+Aluno: Lucivaldo Oliveira Barroso
+Data: 24/05/2026
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ENUNCIADO:
@@ -19,5 +19,8 @@ Dica: há um problema em: (1) definição da função, (2) como o loop é escrit
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 SUA RESPOSTA:
 
-(escreva aqui com suas próprias palavras)
+processar_alunos(alunos=[]): # Usar uma lista vazia como valor padrão pode causar problemas, pois ela pode ser reutilizada em diferentes funções.
 
+for i in range(len(alunos)): # como queremos acessar cada aluno da lista poderia ser melhor usar for aluno in alunos:
+
+aprovados = aprovados + [alunos[i]['nome']] # isso cria uma nova lista a cada repetição era melhor colocar append() que iria adiucionar o item na lista.

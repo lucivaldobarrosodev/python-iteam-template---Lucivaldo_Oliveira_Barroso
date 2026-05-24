@@ -1,13 +1,14 @@
 # Explicação — Desafio 05 — Gerenciador de Compras
 
-**Aluno:** _(seu nome)_
-**Data:** _(data)_
+**Aluno:** _(Lucivaldo Oliveira Barroso)_  
+**Data:** _(24/05/2026)_
+
 
 ---
 
 ## O que meu programa faz
 
-_(Descreva em suas palavras o que cada parte do código faz.)_
+_o programa começa criandao uma lista vazia o cliente vai adicionando os produtos, uando escrever 'fim' retorna a lista de compras.
 
 ---
 
@@ -15,10 +16,10 @@ _(Descreva em suas palavras o que cada parte do código faz.)_
 
 > Por que usamos uma **lista** e não uma **tupla** para essa lista de compras? O que mudaria no comportamento do programa se tentássemos usar tupla?
 
-_(Sua resposta aqui — use suas próprias palavras.)_
+_porque a lista nos pertmite adicionar novos itens e a tupla ela não pode ser modificada
 
 ---
 
 ## Dificuldades encontradas
 
-_(Opcional: o que foi difícil? O que você pesquisou para resolver?)_
+_pesuisei o .append(), para lembrar para poder fazer.

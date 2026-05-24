@@ -1,6 +1,6 @@
 # Lista 01 — Questão 09: EAFP vs LBYL
-# Aluno: (seu nome)
-# Data:  (data)
+# Aluno: Lucivaldo Oliveira Barroso
+# Data: 24/05/2026
 
 # ── Enunciado ───────────────────────────────────────────────────────────────
 # Em q09.py: reescreva a função abaixo no estilo EAFP usando try/except.
@@ -14,3 +14,11 @@
 # Em q09_resposta.txt: explique o que significa EAFP e qual versão é mais Pythônica.
 
 # ── Sua solução abaixo ──────────────────────────────────────────────────────
+def dividir(a, b):
+    try:
+        return a / b
+    except ZeroDivisionError:
+        return None
+
+print(dividir(10, 2))
+print(dividir(10, 0))

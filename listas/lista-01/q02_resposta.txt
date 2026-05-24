@@ -1,18 +1,18 @@
 Lista 01 — Questão 02: Tipos e Conversão
-Aluno: (seu nome)
-Data:  (data)
+Aluno: Lucivaldo Oliveira Barroso
+Data: 24/05/2026
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ENUNCIADO:
 Para cada linha abaixo, indique: (a) o tipo do resultado e (b) o valor.
 Responda por raciocínio ANTES de executar. Depois confirme no REPL.
 
-  print(type(10 / 2))         # tipo: ?   valor: ?
-  print(type(10 // 2))        # tipo: ?   valor: ?
-  print(int(3.9))             # tipo: ?   valor: ?
-  print(bool([]))             # tipo: ?   valor: ?
-  print(bool("False"))       # tipo: ?   valor: ?
-  print(str(True) == "True") # tipo: ?   valor: ?
+  print(type(10 / 2))         # tipo: float   valor: 5.0 # sempre retorna um numero decimal.
+  print(type(10 // 2))        # tipo: int   valor: 5 # retorna a parte interira da divisão.
+  print(int(3.9))             # tipo: int   valor: 3 # remova  a parte decimal, não arredonda.
+  print(bool([]))             # tipo: bool   valor: false  # uma lista vazia retorna false.
+  print(bool("False"))       # tipo: bool   valor: True # uma string com texto é considerado verdadeira.
+  print(str(True) == "True") # tipo: bool   valor: True # str(True) vira a string "True", então a comparação é verdadeira.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 SUA RESPOSTA:

@@ -1,6 +1,6 @@
 Lista 01 — Questão 01: Modelo de Memória
-Aluno: (seu nome)
-Data:  (data)
+Aluno: Lucivaldo Oliveira Barroso
+Data: 24/05/2026
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ENUNCIADO:
@@ -10,14 +10,18 @@ Explique por que modificar b (ou não) afeta a.
 Depois execute e verifique sua previsão.
 
 Código:
-  a = [10, 20, 30]
-  b = a
-  b.append(40)
-  c = a.copy()
+  a = [10, 20, 30]  
+  b = a             
+  b.append(40)      
+  c = a.copy()       
   c.append(99)
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 SUA RESPOSTA:
+print(a) #[10, 20, 30, 40]
+print(b) #[10, 20, 30, 40]
+print(c) #[10, 20, 30, 40, 99]
 
-(escreva aqui com suas próprias palavras)
-
+# o b = a não cria uma nova lista e sim a mesma coisa nas duas variaveis.
+# c = a.copy() "copia a lista daquele momento"  
+  c.append(99) "altera a variavel c que adicona o numero 99"

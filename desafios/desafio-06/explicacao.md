@@ -1,13 +1,12 @@
 # Explicação — Desafio 06 — Bio-Cadastro
 
-**Aluno:** _(seu nome)_
-**Data:** _(data)_
-
+**Aluno:** _(Lucivaldo Oliveira Barroso)_  
+**Data:** _(24/05/2026)_
 ---
 
 ## O que meu programa faz
 
-_(Descreva em suas palavras o que cada parte do código faz.)_
+_ele começa com uma lista vazia chamada equipe, que depois dentro do laço 'while' pede um nome de colaborador, se digitar sair o programa para.
 
 ---
 
@@ -15,10 +14,10 @@ _(Descreva em suas palavras o que cada parte do código faz.)_
 
 > Por que usamos um **dicionário** para cada funcionário e não uma lista com dois itens como `["Ricardo", "Dev"]`? Qual é a desvantagem de `funcionario[0]` comparado a `funcionario["nome"]`?
 
-_(Sua resposta aqui — use suas próprias palavras.)_
-
+_porque ele deixa claro cada infromação , exepxlo nome, cargo, ficando mais facil.
+porqueb o `funcionario[0]` o numero não explica oq ue esta sendo usado.
 ---
 
 ## Dificuldades encontradas
 
-_(Opcional: o que foi difícil? O que você pesquisou para resolver?)_
+_enterder sobre dicionario comparado a lista.

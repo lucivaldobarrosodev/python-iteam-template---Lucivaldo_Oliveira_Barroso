@@ -14,8 +14,9 @@ _ele começa com uma lista vazia chamada equipe, que depois dentro do laço 'whi
 
 > Por que usamos um **dicionário** para cada funcionário e não uma lista com dois itens como `["Ricardo", "Dev"]`? Qual é a desvantagem de `funcionario[0]` comparado a `funcionario["nome"]`?
 
-_porque ele deixa claro cada infromação , exepxlo nome, cargo, ficando mais facil.
-porqueb o `funcionario[0]` o numero não explica oq ue esta sendo usado.
+_usamos um **dicionário** porque ele deixa claro cada infromação , exemplo nome, cargo, ficando mais facil.
+
+_a desvantagem é porque o `funcionario[0]` o numero não explica oq ue esta sendo usado.
 ---
 
 ## Dificuldades encontradas

@@ -1,7 +1,6 @@
 Lista 02 — Questão 09: Encapsulamento e Propriedades
-Aluno: (seu nome)
-Data:  (data)
-
+Aluno: Lucivaldo Oliveira Barroso
+Data: 28/05/2026
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ENUNCIADO:
 Em q09.py — classe Produto com:
@@ -15,5 +14,6 @@ Em q09_resposta.txt: explique a diferença entre _atributo e __atributo em Pytho
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 SUA RESPOSTA:
 
-(escreva aqui com suas próprias palavras)
+Em Python, um atributo com um underline, como _atributo, indica que ele deve ser tratado como interno da classe. 
 
+Já um atributo com dois underlines, como __atributo, sofre uma mudança de nome internamente. Isso dificulta o acesso direto de fora da classe e ajuda a proteger melhor os dados.

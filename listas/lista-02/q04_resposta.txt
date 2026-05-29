@@ -1,6 +1,6 @@
 Lista 02 — Questão 04: Escopo — LEGB
-Aluno: (seu nome)
-Data:  (data)
+Aluno: Lucivaldo Oliveira Barroso
+Data: 28/05/2026
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ENUNCIADO:
@@ -22,5 +22,8 @@ Explique a regra de escopo (LEGB) que determina cada resultado.
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 SUA RESPOSTA:
 
-(escreva aqui com suas próprias palavras)
+((a) imprime: enclosing
+(b) imprime: enclosing
+(c) imprime: global
 
+A regra LEGB significa: Local, Enclosing, Global e Built-in.

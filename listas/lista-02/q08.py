@@ -1,6 +1,6 @@
 # Lista 02 — Questão 08: Herança e Polimorfismo
-# Aluno: (seu nome)
-# Data:  (data)
+# Aluno: (Lucivaldo Oliveira Barroso)
+# Data:  (28/05/2026)
 
 # ── Enunciado ───────────────────────────────────────────────────────────────
 # Implemente:
@@ -12,3 +12,38 @@
 # calcular_bonus() sem você verificar o tipo do objeto?
 
 # ── Sua solução abaixo ──────────────────────────────────────────────────────
+class Funcionario:
+    def __init__(self, nome, salario):
+        self.nome = nome
+        self.salario = salario
+
+    def calcular_bonus(self):
+        return self.salario * 0.10
+
+class Gerente(Funcionario):
+    def __init__(self, nome, salario, departamento):
+        super().__init__(nome, salario)
+        self.departamento = departamento
+
+    def calcular_bonus(self):
+        return self.salario * 0.20
+
+class Estagiario(Funcionario):
+    def __init__(self, nome, salario, curso):
+        super().__init__(nome, salario)
+        self.curso = curso
+
+    def calcular_bonus(self):
+        return self.salario * 0.05
+
+funcionarios = [
+    Funcionario("Ana", 3000),
+    Gerente("Carlos", 6000, "Financeiro"),
+    Estagiario("Marina", 1200, "Administração")
+]
+
+for funcionario in funcionarios:
+    print(f"{funcionario.nome} - Bônus: R$ {funcionario.calcular_bonus():.2f}")
+
+# O Python chama a versão correta de calcular_bonus por causa do polimorfismo.
+# Cada objeto sabe qual classe ele pertence, então o método chamado é o da própria classe.

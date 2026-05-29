@@ -1,6 +1,6 @@
 Lista 02 — Questão 07: Interpretação de Classe
-Aluno: (seu nome)
-Data:  (data)
+Aluno: Lucivaldo Oliveira Barroso
+Data: 28/05/2026
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ENUNCIADO:
@@ -12,5 +12,14 @@ Leia a classe ContaBancaria do enunciado e responda SEM executar:
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 SUA RESPOSTA:
 
-(escreva aqui com suas próprias palavras)
+a) self.saldo representa o saldo daquele objeto específico da classe ContaBancaria. Usamos self porque o saldo precisa ficar guardado dentro da conta. Se fosse uma variável local, ela existiria só dentro do método e depois seria perdida.
+
+b) Se chamar conta.sacar(2000) com saldo = 500, o saque não deve ser realizado, porque o saldo é insuficiente..
+
+c) Uma forma de reescrever o __str__ seria:
+
+def __str__(self):
+    return f"Conta: {self.numero} | Titular: {self.titular} | Saldo: R$ {self.saldo:.2f}"
+
+Assim, ao imprimir o objeto, aparecem o número da conta, o titular e o saldo.
 

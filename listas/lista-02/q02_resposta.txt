@@ -1,6 +1,6 @@
 Lista 02 — Questão 02: Escolha da Estrutura
-Aluno: (seu nome)
-Data:  (data)
+Aluno: Lucivaldo Oliveira Barroso
+Data: 28/05/2026
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ENUNCIADO:
@@ -14,5 +14,13 @@ Para cada cenário, indique a estrutura mais adequada (list/tuple/dict/set) e ju
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 SUA RESPOSTA:
 
-(escreva aqui com suas próprias palavras)
+a) Tuple.
+
+b) Set.
+
+c) Dict.
+
+d) List.
+
+e) Tuple.
 

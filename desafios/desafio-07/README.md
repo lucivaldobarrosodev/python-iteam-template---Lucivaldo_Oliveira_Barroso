@@ -17,6 +17,7 @@ Crie um sistema modularizado com **dois arquivos**:
 
 > Por que separar as funções em um arquivo diferente do `solucao.py`? O que muda no projeto quando você tem 50 funções em vez de 3?
 
+
 ---
 
 ## Critérios de Avaliação
